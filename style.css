@@ -68,12 +68,12 @@ body {
     justify-content: center;
     list-style: none;
     font-size: 14px;
-    /* padding-top: 15px; */
+    padding-top: 15px;
     margin-top: 2%;
 }
 
 #navbar-links ul li {
-    margin: 0px 10px;
+    margin: 5px 10px;
 }
 
 #navbar-links ul li a {
@@ -220,6 +220,14 @@ footer {
     color: pink;
 }
 
+@media (max-width:450px){
+
+    .search-container #search{
+        display: none;
+    }
+
+}
+
 /* Media Queries for Responsive Design */
 @media screen and (min-width: 450px) {
     #navbar {
@@ -231,16 +239,10 @@ footer {
     .search-container {
         padding-right: 5%;
     }
-     .search-container #search{
-        display: none;
-     }
+
     #navbar-links ul {
         padding-top: 0;
     }
-    
-#navbar-links ul li {
-    margin: 5px 10px;
-}
 
     .section-title, .section-title2, .section-title3 {
         font-size: 2rem;
